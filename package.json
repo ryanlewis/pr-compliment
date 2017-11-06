@@ -1,0 +1,16 @@
+{
+  "name": "pr-compliment",
+  "version": "1.0.0",
+  "description": "Reply to a Github pull request with a nice message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Please read the README file!\""
+  },
+  "author": "Ryan Lewis <ryan@lobsterlabs.co.uk> (https://github.com/ryanlewis)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0"
+  }
+}
