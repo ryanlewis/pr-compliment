@@ -13,3 +13,5 @@ Reply to a Github pull request with a nice message.
 `wt create --name pr-compliment --secret GITHUB_TOKEN=<TOKEN> https://raw.githubusercontent.com/ryanlewis/pr-compliment/master/compliment.js`
 5. Install the webhook to your repo, selecting the **Pull request** event. You can do this by going to your repo settings and going to Webhooks. **Make sure you set the Content-Type to `application/json`!**
 6. You can inspect any errors using the cli command `wt logs`
+
+Hey, I've changed the README! Compliment me!
