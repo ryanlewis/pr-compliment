@@ -13,6 +13,10 @@ Reply to a Github pull request with a nice message.
 5. Install the webhook to your repo, selecting the **Pull request** event and providing the webtask URL that the wt command will give you. You can add a webhook by going to your repo settings and going to Webhooks. **Make sure you set the Content-Type to `application/json`!**
 6. You can inspect any errors using the cli command `wt logs`
 
+## Example 
+
+You can see an example of the output at https://github.com/ryanlewis/pr-compliment/pull/2
+
 ## License 
 
 http://unlicense.org/
